@@ -9,13 +9,10 @@ public class MemberService {
         String password = sc.next();
         String phone = sc.next();
 
-        Member newMember = new Member();
-        newMember.setBasicInfo(username, password, phone);
+        Member newMember1 = new Member();
+        newMember1.setBasicInfo(username, password, phone);
 
-//        newMember.username = username;
-//        newMember.password = password;
-//        newMember.phone = phone;
-
-        System.out.println(newMember.username);
+        Member newMember2 = new Member(username, password, phone);
+        System.out.println(newMember2.username);
     }
 }
