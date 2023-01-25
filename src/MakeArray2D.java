@@ -13,7 +13,7 @@ public class MakeArray2D {
 
             }
 
-            // 위에 줄까지 구현
+
             return answer;
         }
 
