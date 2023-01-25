@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PostTest {
+public class PostTest { // d안녕
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int id = sc.nextInt();
