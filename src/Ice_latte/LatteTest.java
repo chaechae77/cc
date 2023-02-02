@@ -8,8 +8,9 @@ public class LatteTest {
         String espresso = "7샷";
 
         IceLatte latteTest = new IceLatte(milk, ice, espresso);
+//        IceLatte eTest = new IceLatte();
 
-        System.out.println(latteTest.milk);
+//        System.out.println(latteTest.milk);
 
     }
 }

@@ -15,7 +15,7 @@ public class MakeArray2D {
             return answer;
         }
 
-        public static void main(String[] args){// 여기 코드 어떻게 쓰는지 모르겠음!햐
+        public static void main(String[] args){
             MakeArray2D aa = new MakeArray2D();
 
             // 예시1
