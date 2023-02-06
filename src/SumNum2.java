@@ -1,15 +1,19 @@
 class SumNum2 {
     public int solution(int n) {
+        String nStr = String.valueOf(n);
+
         int answer = 0;
 
 
-        String.valueOf(n);
 
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < nStr.length(); i++) {
+           char c = nStr.charAt(i); // nStr의 i번째를 가지고 온다
 
-
-
+            String CC = String.valueOf(c);
+            int cs = Integer.parseInt(CC);
+            answer += cs;
         }
+
         return answer;
     }
 
