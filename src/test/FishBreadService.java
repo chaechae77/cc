@@ -1,5 +1,7 @@
 package test;
 
+import Post.Post;
+
 import java.util.Scanner;
 
 public class FishBreadService {

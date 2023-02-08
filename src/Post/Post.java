@@ -3,7 +3,7 @@ package Post;
 public class Post {
     // 필드(속성)
     private int id;
-    private String title;
+    protected String title;
     private String content;
     private String writer;
 
