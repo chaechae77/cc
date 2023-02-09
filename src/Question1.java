@@ -10,25 +10,26 @@ public class Question1 {
         int cc = 0;
         switch (month) {
             case 1, 2, 3:
-                cc=1;
+                cc = 1;
                 break;
             case 4, 5, 6:
-                cc=(2);
+                cc = 2;
                 break;
             case 7, 8, 9:
-                cc =(3);
+                cc = 3;
                 break;
             default:
-                cc =(4);
+                cc = 4;
         }
-
-        return switch (month) {
+                return cc;
+        /*return switch (month) {
             case 1, 2, 3 -> 1;
             case 4, 5, 6 -> 2;
             case 7, 8, 9 -> 3;
             default -> 4;
-        };
+        }*/
     }
+
     public static void main(String[] args) {
 
         // 1 출력
