@@ -5,8 +5,8 @@ public class SumMinus {
         int result2 =0;
         for (int i = 0; i < numstr.length(); i++) {
             char n = numstr.charAt(i);
-            String nstr = String.valueOf(n);
-            int nint = Integer.parseInt(nstr);
+
+            int nint = n - '0';
 
             result+= nint;
 
